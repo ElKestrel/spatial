@@ -1,0 +1,443 @@
+body {
+  margin: 0;
+  font-family: Geneva, Verdana, sans-serif;
+}
+body .bgimg {
+  background-image: url(/public/images/banner.jpg);
+  height: auto;
+}
+body .bgimg nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 3%;
+  height: auto;
+  color: white;
+}
+body .bgimg nav .navdroite {
+  display: flex;
+  gap: 30px;
+  color: gray;
+}
+body .bgimg nav .sp {
+  font-weight: bold;
+}
+body .bgimg nav .sp .by {
+  font-weight: normal;
+}
+body .bgimg .partie2 {
+  margin-top: 70px;
+  text-align: center;
+}
+body .bgimg .partie2 .t1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+body .bgimg .partie2 .para1 {
+  color: gray;
+  font-size: 20px;
+  margin-top: 2%;
+}
+body .bgimg .partie2 .btn1 {
+  padding: 10px 22px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(243, 40, 83);
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 14%;
+  margin-top: 5%;
+}
+body .sec2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3%;
+  height: auto;
+}
+body .sec2 .sec2gauche {
+  width: 30%;
+}
+body .sec2 .sec2gauche .t2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(72, 72, 72);
+}
+body .sec2 .sec2gauche .t3 {
+  font-size: 20px;
+  color: gray;
+}
+body .sec2 .sec2droite {
+  width: 30%;
+}
+body .sec2 .sec2droite .sec2droitetxt {
+  line-height: 150%;
+  color: gray;
+  margin-bottom: 20%;
+}
+body .sec3 {
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+  height: auto;
+}
+body .sec3 .sec3t1 {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 6%;
+  color: rgb(72, 72, 72);
+}
+body .sec3 .sec3t2 {
+  color: rgb(188, 201, 213);
+  font-size: 17px;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+body .sec3 .sec3img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 3%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .sec3 .sec3ii {
+  width: 100%;
+}
+body .sec3 .sec3txt {
+  padding: 5% 0;
+}
+body .sec3 .borderr {
+  border: 1px solid rgb(234, 234, 234);
+  background-color: white;
+}
+body .sec3 .les2btn {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  margin-top: 4%;
+  padding-bottom: 5%;
+}
+body .sec3 .intbtn {
+  padding: 12px 26px;
+  background-color: rgb(243, 40, 83);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+body .sec3 .intbtn2 {
+  padding: 12px 26px;
+  background-color: rgb(72, 72, 72);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+body .sec4flex1 {
+  display: flex;
+  gap: 5%;
+}
+body .sec4flex2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+body .rond {
+  border-radius: 50%;
+  border: 10px solid rgb(227, 227, 227);
+}
+body .sec4 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 6%;
+}
+body .sec4gauche {
+  width: 100%;
+  text-align: end;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+body .sec4t1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: rgb(72, 72, 72);
+}
+body .sec4t2 {
+  margin-top: 2%;
+  font-size: 28px;
+  color: gray;
+  margin-left: 5%;
+  margin-bottom: 7%;
+}
+body .sec4t3 {
+  margin-top: 5%;
+  font-size: 15px;
+  line-height: 150%;
+  color: gray;
+}
+body .sec4droite {
+  width: 100%;
+  text-align: start;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+body .flex2 {
+  margin-top: 2%;
+  display: flex;
+  gap: 5%;
+}
+body .sec4t11 {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(72, 72, 72);
+}
+body .sec4t22 {
+  font-size: 17px;
+  color: gray;
+  margin-bottom: 7%;
+  margin-top: 3%;
+}
+body footer {
+  text-align: center;
+  background-image: url(/public/images/banner.jpg);
+}
+body footer .ft1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  padding-top: 5%;
+}
+body footer .ft2 {
+  color: gray;
+  font-size: 25px;
+  padding-top: 2%;
+}
+body footer .ft3 {
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+body footer .ft4 {
+  padding: 10px 25px;
+  background-color: rgb(243, 40, 83);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+body .finfin {
+  margin-top: 5%;
+  text-align: center;
+}
+body .finfin i {
+  width: 10%;
+  opacity: 0.4;
+  margin-bottom: 3%;
+}
+body .finfin .finfinfin {
+  color: gray;
+}
+body .finfin .bar {
+  font-size: 25px;
+  padding: 0 10px 8% 10px;
+}
+
+body .sec2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3%;
+  height: auto;
+  gap: 40px;
+}
+body .sec2 .sec2gauche {
+  width: 30%;
+}
+body .sec2 .sec2gauche .t2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(72, 72, 72);
+}
+body .sec2 .sec2gauche .t3 {
+  font-size: 20px;
+  color: gray;
+}
+body .sec2 .sec2droite {
+  width: 50%;
+}
+body .sec2 .sec2droite .sec2droitetxt {
+  line-height: 150%;
+  color: gray;
+  margin-bottom: 20%;
+}
+body .flex2 {
+  margin-top: 5%;
+  display: flex;
+  gap: 5%;
+}
+body .ft3 {
+  margin-top: 30px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+body .sec2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3%;
+  height: auto;
+  gap: 50px;
+}
+body .sec2 .sec2gauche {
+  width: 30%;
+}
+body .sec2 .sec2gauche .t2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(72, 72, 72);
+}
+body .sec2 .sec2gauche .t3 {
+  padding-top: 50px;
+  font-size: 20px;
+  color: gray;
+}
+body .sec2 .sec2droite {
+  width: 50%;
+}
+body .sec2 .sec2droite .sec2droitetxt {
+  line-height: 150%;
+  color: gray;
+  margin-bottom: 20%;
+}
+body .sec3 {
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+  height: auto;
+}
+body .sec3 .sec3t1 {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 6%;
+  color: rgb(72, 72, 72);
+}
+body .sec3 .sec3t2 {
+  color: rgb(188, 201, 213);
+  font-size: 17px;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+body .sec3 .sec3img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 3%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .sec3 .sec3ii {
+  width: 100%;
+}
+body .sec3 .sec3txt {
+  padding: 5% 0;
+}
+body .sec3 .borderr {
+  border: 1px solid rgb(234, 234, 234);
+  background-color: white;
+}
+body .sec3 .les2btn {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 4%;
+  padding-bottom: 5%;
+}
+body .sec3 .intbtn {
+  padding: 12px 26px;
+  background-color: rgb(243, 40, 83);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+body .sec3 .intbtn2 {
+  padding: 12px 26px;
+  background-color: rgb(72, 72, 72);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+body .sec4flex1 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+body .sec4flex2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+body .rond {
+  border-radius: 50%;
+  border: 10px solid rgb(227, 227, 227);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .sec4 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 6%;
+}
+body .sec4gauche {
+  width: 100%;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+body .sec4t1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 5%;
+  color: rgb(72, 72, 72);
+}
+body .sec4t2 {
+  margin-top: 2%;
+  font-size: 28px;
+  color: gray;
+  text-align: center;
+  margin-bottom: 7%;
+}
+body .sec4t3 {
+  margin-top: 5%;
+  font-size: 15px;
+  line-height: 150%;
+  color: gray;
+}
+body .sec4droite {
+  width: 100%;
+  text-align: center;
+  margin-right: 5%;
+}
+body .flex2 {
+  margin-top: 2%;
+  display: flex;
+  gap: 5%;
+}
+body .sec4t11 {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(72, 72, 72);
+}
+body .sec4t22 {
+  font-size: 17px;
+  color: gray;
+  margin-bottom: 7%;
+  margin-top: 3%;
+}
+
+/*# sourceMappingURL=style.css.map */
